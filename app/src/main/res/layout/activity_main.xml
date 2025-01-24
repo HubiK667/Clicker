@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Wyświetlanie licznika -->
+    <TextView
+        android:id="@+id/countTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="48sp"
+        android:layout_marginBottom="24dp"
+        android:textColorHighlight="@color/cardview_dark_background"/>
+
+    <!-- Guzik zwiększający licznik -->
+    <Button
+        android:id="@+id/increaseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zwiększ"
+        android:background="@color/design_default_color_on_primary"/>
+
+    <!-- Guzik resetujący licznik -->
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/design_default_color_error"
+        android:background="@color/design_default_color_on_primary"/>
+    />
+</LinearLayout>
